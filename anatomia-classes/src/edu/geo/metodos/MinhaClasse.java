@@ -4,11 +4,11 @@ public class MinhaClasse {
         System.out.print("Olá, mundo!");
 
         // Declaração de variável
-        int ano = 2024; 
+        // int ano = 2024; 
         // Alteração do  valor da variável
-        ano = 2025; 
+        // ano = 2025; 
 
-        final String BR = "Brasil";
+        // final String BR = "Brasil";
         // BR = "Brazil"; Nesse caso, aconteceria um erro pois declaramos a variável 'BR' como final e ela é toda maiúscula, o que significa que é uma variável cujo valor não pode ser alterado.
 
         // Atribuindo valores às variáveis para utilizar o método "nomeCompleto" dentro do método principal
@@ -26,5 +26,4 @@ public class MinhaClasse {
     public static String nomeCompleto (String primeiroNome, String segundoNome){
         return "\n" + primeiroNome.concat(" ").concat(segundoNome);
     }
-
 }
